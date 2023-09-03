@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png" href="" rel="icon" type="Image/x-icon">
+    <title>WeatherApp-F2MT-August</title>
+  </head>
+
+  <body>
+    <div id="hidden" class="landing">
+      <h1>Weather Api</h1>
+      <div id="button" class="btn">Fetch Api</div>
+    </div>
+
+    <div id="display" class="container">
+      <div class="upper">
+        <h1>Welcome To The Weather App</h1>
+        <br>
+        <p class="location">Here is your current location</p>
+        <br>
+        <div id="latitude" class="lat"></div>
+        
+        <iframe id="googleMap" class="map" src="" frameborder="0"></iframe>
+      </div>
+      <br>
+      <div class="lower">
+        <h1>Your Weather Data</h1>
+        <div class="details">
+          <div>Location: New Delhi</div>
+          <div>Wind Speed: 100kmph</div>
+          <div>Humidity : 10</div>
+          <div>Time Zone : GMT+5:30</div>
+          <div>Pressure:10atm</div>
+          <div>Wind Direction:North West</div>
+          <div>UV Index : 500</div>
+          <div>Feels like: 30&deg;</div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
